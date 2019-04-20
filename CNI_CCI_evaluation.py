@@ -40,11 +40,11 @@ def Dset_Acuuracy(base):
         CCIlist.append(CCI)
         CCI_determinelist.append(CCI_determine)
         CNIratio = CNIratio + CNI
-        CCIratioratio = CCIratio + CCI
+        CCIratio = CCIratio + CCI
         CCI_determineratio = CCI_determineratio + CCI_determine
         print('The %dth image: CNI: %f, CCI: %f, CCI_determine: %d' % (i, CNI, CCI, CCI_determine))
     CNIratio = CNIratio / len(imglist)
-    CCIratioratio = CCIratioratio / len(imglist)
+    CCIratio = CCIratio / len(imglist)
     CCI_determineratio = CCI_determineratio / len(imglist)
 
     return CNIlist, CCIlist, CCI_determinelist, CNIratio, CCIratioratio, CCI_determineratio
