@@ -54,7 +54,7 @@ if __name__ == "__main__":
     # Define imgpath, change it with your own folder path
     base = 'GT'
     
-    CNIlist, CCIlist, CCI_determinelist, CNIratio, CCIratioratio, CCI_determineratio = Dset_Acuuracy(base)
+    CNIlist, CCIlist, CCI_determinelist, CNIratio, CCIratio, CCI_determineratio = Dset_Acuuracy(base)
 
     print('The overall results for %s: CNI: %f, CCI: %f, CCI_determine in [16, 20]: %f' % (base, CNIratio, CCIratioratio, CCI_determineratio))
     
