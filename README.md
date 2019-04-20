@@ -38,7 +38,7 @@ The `final step` is `computing the global CNI value`, given as follows:
 </br>
 `else: N = len(skin) * N_skin + len(grass) * N_grass + len(sky) * N_sky / len(skin) + len(grass) + len(sky)`
 </br>
-N is the final CNI value.
+`N` is the final `CNI` value.
 
 ## 2 CCI
 
@@ -58,7 +58,7 @@ Then, compute the `CCI value`:
 </br>
 `M = 0.3 * mean + std`
 </br>
-If 16 <= M <= 20, the CCI value is visually good, while M is the final CCI output.
+If `16 <= M <= 20`, the CCI value is visually good, while `M` is the final `CCI` output.
 
 ## 3 Reference
 Kai-Qi Huang, Qiao Wang, and Zhen-Yang Wu. Natural color image enhancement and evaluation algorithm based on human visual system. Computer Vision and Image Understanding (CVIU), 2006, 103(1): 52-63.
