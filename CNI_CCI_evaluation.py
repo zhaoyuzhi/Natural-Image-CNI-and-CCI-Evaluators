@@ -5,9 +5,7 @@ Created on Tue Sep 25 19:36:00 2018
 @author: yzzhao2
 """
 
-import numpy as np
 import os
-from PIL import Image
 from CNI_CCI_indexes import *
 
 # read a folder, return the complete path
