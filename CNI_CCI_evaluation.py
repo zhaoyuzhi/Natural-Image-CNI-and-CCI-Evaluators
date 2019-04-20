@@ -47,7 +47,7 @@ def Dset_Acuuracy(base):
     CCIratio = CCIratio / len(imglist)
     CCI_determineratio = CCI_determineratio / len(imglist)
 
-    return CNIlist, CCIlist, CCI_determinelist, CNIratio, CCIratioratio, CCI_determineratio
+    return CNIlist, CCIlist, CCI_determinelist, CNIratio, CCIratio, CCI_determineratio
     
 if __name__ == "__main__":
     
